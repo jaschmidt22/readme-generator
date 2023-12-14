@@ -1,8 +1,9 @@
-// TODO: Include packages needed for this application
+//packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// questions for user input
 //const questions = [
 inquirer
   .prompt([
@@ -25,35 +26,49 @@ inquirer
     {
       type: "input",
       message: "Provide instructions and some examples for use.",
-      name: "instructions",
+      name: "usage",
+    },
+    {
+      type: "list",
+      message: "Choose a license for your project:",
+      name: "license",
+      choices: [
+        "MIT License",
+        "GNU General Public License v3.0",
+        "Apache License 2.0",
+        "None",
+      ],
     },
     {
       type: "input",
-      message:
-        "List any collaborators and include links to their GitHub profiles.",
-      name: "collaborators",
+      message: "How may the project be contributed to?",
+      name: "contributing",
+    },
+    {
+      type: "input",
+      message: "Have you created any tests for your project?",
+      name: "tests",
+    },
+    {
+      type: "input",
+      message: "How may you be contacted for questions?",
+      name: "contact",
     },
 
     //"Table of Contents", //titles will link to section
 
     //"Provide the license information that you are using.",
-    //"How may the project be contributed to?",
-    // "How may you be contacted for questions?", //link to github/e-mail
   ])
-  .then(
-    (response) => {
-      console.log(response);
-      fs.writeFile("readMe.md", JSON.stringify(response), () =>
-        console.log("Saved File")
-      );
-    }
-
-    // ? console.log("Success!")
-    // : console.log("You forgot your password already?!")
-  );
-
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
+  .then((response) => {
+    const readmeContent = generateMarkdown(response);
+    fs.writeFile("readMe.md", readmeContent, (err) => {
+      if (err) {
+        console.error("error writing README:", err);
+      } else {
+        console.log("Saved File");
+      }
+    });
+  });
 
 // TODO: Create a function to initialize app
 //function init() {}
