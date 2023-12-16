@@ -4,7 +4,6 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // questions for user input
-//const questions = [
 inquirer
   .prompt([
     {
@@ -57,7 +56,7 @@ inquirer
 
     //"Table of Contents", //titles will link to section
 
-    //"Provide the license information that you are using.",
+    //write markdown file, log if successful or insuccessful
   ])
   .then((response) => {
     const readmeContent = generateMarkdown(response);
