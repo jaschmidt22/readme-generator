@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
     case "MIT License":
       return "https://opensource.org/licenses/MIT";
     case "GNU General Public License v3.0":
-      return "https://www.gnu.org/licenses/LICENSE-2.0";
+      return "https://www.gnu.org/licenses/gpl-3.0.html";
     case "Apache License 2.0":
       return "https://www.apache.org/licenses/LICENSE-2.0";
     default:
@@ -45,6 +45,14 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Contact Info](#contact-info)
 
 ## Installation
 ${data.installation}

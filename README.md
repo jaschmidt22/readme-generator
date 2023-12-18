@@ -1,27 +1,41 @@
-# Read Me
+# Read Me Generator
 
 ## Description
-what when why and how
+
+what, where, why and how
 
 ## Table of Contents
 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Contact Info](#contact-info)
+
 ## Installation
+
 1 2 3 4
 
 ## Usage
-use it to make a read me
+
+Use it to make a Markdown file for your project
 
 ## License
-GNU General Public License v3.0 - [![License](Https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/LICENSE-2.0)
 
-This application is covered under the GNU General Public License v3.0 license. See the [license file](https://www.gnu.org/licenses/LICENSE-2.0) for details.
+Apache License 2.0 - [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+This application is covered under the Apache License 2.0 license. See the [license file](https://www.apache.org/licenses/LICENSE-2.0) for details.
 
 ## Contributing
-it can't
+
+you can't contribute
 
 ## Tests
-nop
+
+nope
 
 ## Contact Info
-by email
 
+by email jessicaschmidt22@yahoo.com
