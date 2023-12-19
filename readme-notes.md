@@ -1,63 +1,27 @@
-readme-generator
-GIVEN a command-line application that accepts user input WHEN I am prompted for information about my application repository THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions WHEN I enter my project title THEN this is displayed as the title of the README WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests WHEN I choose a license for my application from a list of options THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under WHEN I enter my GitHub username THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile WHEN I enter my email address THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions WHEN I click on the links in the Table of Contents THEN I am taken to the corresponding section of the README Here are some guidelines to help you get started:
+# README Generator
 
-Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
+## Description
 
-Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
+I was given the task of creating a command-line application that dynamically generates a professional README.md file from a user's input. It is important to have a README for applications that explain what the app is for, how to use the app, and how to install it. Also, a README file informs users how to report issues and how to make contributions. During the building process of this application, I learned how to us inquirer, json packages and node modules to quickly and easily generate a README file by using a command-line interface.
 
-Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+## Usage
 
-Refer to the Fullstack Blog Video Submission Guide for additional guidance on creating a video.
+To use this application, be sure to download and install node.js. Specifically, the inquirer package included in node.js is required to run this application. Once the index.js file is opened in the CLI, type "node index.js" to initialize the application. You will be presented with multiple questions regarding the information you would like to be included in your README document. You will be prompted to provide the Description, Table of Contents, Installation, Usage, License, Contribution Info, Tests, and Contact Details for your project. Once entering all of the information, a README.md file will appear within your project folder with all of the provided data, created dynamically.
 
-Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+https://drive.google.com/file/d/1A3P7ry8oXAQXkQKT237RW36DyOPxBGrb/view
 
-Grading Requirements
-Note: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
+## Credits
 
-A repository that has no code
+Throughout the making of this project, I frequently referenced my class repository ASU-VIRT-FSF-PT-10-2023-U-LOLC. I also referenced Google, W3Schools, MDN Webdocs, The Full-Stack Blog, Shields.io, and ChatGPT.
 
-A repository that includes a unique name but nothing else
+## License
 
-A repository that includes only a README file but nothing else
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A repository that only includes starter code
+Copyright (c) [2023] [jaschmidt22]
 
-This Challenge is graded based on the following criteria:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Deliverables: 20%
-A sample README generated using the application must be submitted.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Your GitHub repository containing your application code.
-
-Walkthrough Video: 27%
-A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-Technical Acceptance Criteria: 40%
-Satisfies all of the above acceptance criteria plus the following:
-
-Uses the Inquirer package.
-Repository Quality: 13%
-Repository has a unique name.
-
-Repository follows best practices for file structure and naming conventions.
-
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains a high-quality README with description and a link to walkthrough video.
-
-Review
-You are required to submit the following for review:
-
-A walkthrough video demonstrating the functionality of the application.
-
-A sample README.md file for a project repository generated using your application
-
-The URL of the GitHub repository, with a unique name and a README describing the project
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Copy license text to clipboard Suggest this license Make a pull request to suggest this license for a project that is not licensed. Please be polite: see if a license has already been suggested, try to suggest a license fitting for the project’s community, and keep your communication with project maintainers friendly.

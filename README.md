@@ -1,8 +1,7 @@
-# Read Me Generator
+# README Generator
 
 ## Description
-
-what, where, why and how
+Use it to make a dynamically created README file with the CLI.
 
 ## Table of Contents
 
@@ -15,27 +14,23 @@ what, where, why and how
 - [Contact Info](#contact-info)
 
 ## Installation
-
 1 2 3 4
 
 ## Usage
-
-Use it to make a Markdown file for your project
+Answer questions in the terminal and a markdown file will be created with the answers .
 
 ## License
+MIT License - [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Apache License 2.0 - [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+This application is covered under the MIT License license. See the [license file](https://choosealicense.com/licenses/mit/) for details.
 
-This application is covered under the Apache License 2.0 license. See the [license file](https://www.apache.org/licenses/LICENSE-2.0) for details.
 
 ## Contributing
 
-you can't contribute
 
 ## Tests
-
-nope
+no I have not
 
 ## Contact Info
+by  e-mail jessicaschmidt22@yahoo.com 
 
-by email jessicaschmidt22@yahoo.com
