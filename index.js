@@ -14,7 +14,7 @@ inquirer
     {
       type: "input",
       message:
-        "Provide a short description of the what, why, and how of your prjoect.",
+        "Provide a short description of the what, why, and how of your project.",
       name: "description",
     },
     {
@@ -54,9 +54,7 @@ inquirer
       name: "contact",
     },
 
-    //"Table of Contents", //titles will link to section
-
-    //write markdown file, log if successful or insuccessful
+    //write markdown file, log if successful or unsuccessful
   ])
   .then((response) => {
     const readmeContent = generateMarkdown(response);
@@ -68,9 +66,3 @@ inquirer
       }
     });
   });
-
-// TODO: Create a function to initialize app
-//function init() {}
-
-// Function call to initialize app
-//init();
