@@ -2,7 +2,7 @@
 
 ## Description
 
-I was given the task of creating a command-line application that dynamically generates a professional README.md file from a user's input. It is important to have a README for applications that explain what the app is for, how to use the app, and how to install it. Also, a README file informs users how to report issues and how to make contributions. During the building process of this application, I learned how to us inquirer, json packages and node modules to quickly and easily generate a README file by using a command-line interface.
+I was given the task of creating a command-line application that dynamically generates a professional README.md file from a user's input. It is important to have a README for applications that explains what the app is for, how to use the app, and how to install it. Also, a README file informs users how to report issues and how to make contributions. During the building process of this application, I learned how to use inquirer, json packages and node modules to quickly and easily generate a README file by using the command-line interface.
 
 ## Usage
 
@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1A3P7ry8oXAQXkQKT237RW36DyOPxBGrb/view
 
 ## Credits
 
-Throughout the making of this project, I frequently referenced my class repository ASU-VIRT-FSF-PT-10-2023-U-LOLC. I also referenced Google, W3Schools, MDN Webdocs, The Full-Stack Blog, Shields.io, and ChatGPT.
+Throughout the making of this project, I frequently referenced my class repository ASU-VIRT-FSF-PT-10-2023-U-LOLC. I also referenced Google, W3Schools, MDN Webdocs, The Full-Stack Blog, Shields.io, choosealicense.com, and ChatGPT.
 
 ## License
 
